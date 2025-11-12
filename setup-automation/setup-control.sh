@@ -163,7 +163,7 @@ cat <<EOF | tee /tmp/setup.yml
         inventory: "Demo Inventory"
         project: "AWS Demos Project"
         playbook: "{{ item.playbook }}"
-        credentials:
+        credentials:https://showroom-97vn6-1.apps.ocpvdev01.rhdp.net/
           - "AWS_Credential"
         state: "present"
         controller_host: "https://localhost"
@@ -202,7 +202,7 @@ cat <<EOF | tee /tmp/setup.yml
         validate_certs: false
       register: job2
 
-    - name: Wait for job2 to finish
+    - name: Wait for job2 to finishhttps://showroom-97vn6-1.apps.ocpvdev01.rhdp.net/
       ansible.controller.job_wait:
         job_id: "{{ job2.id }}"
         controller_host: "https://localhost"
@@ -230,4 +230,4 @@ EOF
 export ANSIBLE_LOCALHOST_WARNING=False
 export ANSIBLE_INVENTORY_UNPARSED_WARNING=False
 
-#ANSIBLE_COLLECTIONS_PATH=/root/ansible-automation-platform-containerized-setup/collections/ansible_collections ansible-playbook -i /tmp/inventory /tmp/setup.yml
+ANSIBLE_COLLECTIONS_PATH=/root/ansible-automation-platform-containerized-setup/collections/ansible_collections ansible-playbook -i /tmp/inventory /tmp/setup.yml
