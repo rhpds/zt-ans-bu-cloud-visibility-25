@@ -163,7 +163,7 @@ cat <<EOF | tee /tmp/setup.yml
         inventory: "Demo Inventory"
         project: "AWS Demos Project"
         playbook: "{{ item.playbook }}"
-        credentials:https://showroom-97vn6-1.apps.ocpvdev01.rhdp.net/
+        credentials:
           - "AWS_Credential"
         state: "present"
         controller_host: "https://localhost"
