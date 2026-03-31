@@ -89,7 +89,7 @@ image::https://github.com/IPvSean/pictures_for_github/blob/master/launch_job.png
 +
 This playbook runs two tasks:
 +
-* The first task, `amazon.aws.ec2_vpc_net_info`, retrieves structured data for all VPCs in the `us-east-1` region.
+* The first task, `amazon.aws.ec2_vpc_net_info`, retrieves structured data for all VPCs in the `us-east-2` region.
 * The second task, `ansible.builtin.debug`, prints this data to the job output.
 +
 To view the data, click on the **Print vpc info to terminal** task. In the details pane that appears, select the **JSON** tab to see the structured data retrieved from AWS. We have pre-configured one VPC in this region.
@@ -130,12 +130,12 @@ Fill out the form with the following values:
 | Answer variable name | `ec2_region`
 | Answer type | `Multiple Choice (single select)`
 | Required | Check the box ☑️
-| Multiple Choice Options | `us-east-1`, `us-east-2`, `eu-central-1`
+| Multiple Choice Options | `us-east-2`, `us-east-1`, `eu-central-1`
 |===
 
 . **Set the default answer.**
 +
-Click the radio button next to `us-east-1` to make it the default option.
+Click the radio button next to `us-east-2` to make it the default option.
 
 . **Save the survey question.**
 +
