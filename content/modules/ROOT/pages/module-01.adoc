@@ -108,6 +108,18 @@ After selecting `Amazon EC2` as the source, more options will appear. Find the *
 +
 TIP: You may need to click the search icon (magnifying glass) to browse and select the `AWS_Credential`.
 
+. **Configure the `Source Varialbles` section.**
++
+Enter the following text to the *Source Variables* text section.
++
+
+[source,yaml,role=execute]
+----
+---
+regions:
+  - us-east-2
+----
+
 . **Save the source.**
 +
 Click the blue *Create source* button.
