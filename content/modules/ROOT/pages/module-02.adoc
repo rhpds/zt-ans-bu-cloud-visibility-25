@@ -37,7 +37,7 @@ In this task, we will combine these components into a new job template.
 
 . **Navigate to the Templates page.**
 +
-In the left navigation menu, select *Templates*.
+In the left navigation menu, select *Automation Execution* → *Templates*.
 
 . **Initiate the creation of a new job template.**
 +
@@ -65,7 +65,7 @@ TIP: When selecting the credential, you may need to filter by the `Amazon Web Se
 
 . **Save the job template.**
 +
-Click the blue **Save** button.
+Click the blue **Create job template** button.
 
 NOTE: The Ansible Playbooks for this lab are sourced from the following project: link:https://github.com/ansible-cloud/aws_demos[ansible-cloud/aws_demos].
 
@@ -116,7 +116,7 @@ image::https://github.com/IPvSean/pictures_for_github/blob/master/survey_tab.png
 
 . **Create a new survey question.**
 +
-Click the blue **Add** button.
+Click the blue **+ Create Survey question** button.
 
 . **Configure the survey question.**
 +
@@ -139,11 +139,11 @@ Click the radio button next to `us-east-2` to make it the default option.
 
 . **Save the survey question.**
 +
-Click the blue **Save** button.
+Click the blue **Create survey question** button.
 
 . **Enable the survey.**
 +
-After saving, you must **enable the survey** by clicking the toggle switch at the top of the survey page.
+After saving, you must **enable the survey** by clicking the toggle switch **Survey Enabled** at the top of the survey page.
 +
 image::https://github.com/HichamMourad/awsinfravis25/blob/master/images/survey_toggle.png?raw=true[Enable Survey Toggle, 600, opts="border"]
 

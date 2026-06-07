@@ -34,7 +34,7 @@ Credentials are used for authentication when launching Jobs against machines, sy
 
 . **Navigate to the Credentials menu.**
 +
-In the Controller UI, go to the left navigation menu and select *Infrastructure* → *Credentials*.
+In the Ansible Automation Platform UI, go to the left navigation menu and select *Automation Execution* → *Infrastructure* → *Credentials*.
 +
 NOTE: Credential keys are encrypted. Once entered into the automation controller, no one, including administrators, can view the sensitive values.
 
@@ -46,7 +46,7 @@ In this task, you will create a new inventory to hold your dynamically discovere
 
 . **Navigate to the Inventories menu.**
 +
-From the left navigation menu, select *Infrastructure* → *Inventories*.
+From the left navigation menu, select *Automation Execution* → *Infrastructure* → *Inventories*.
 
 . **Initiate inventory creation.**
 +
@@ -126,7 +126,7 @@ Click the blue *Create source* button.
 
 . **Launch the inventory sync.**
 +
-Click the *Sync* button in the top right to retrieve the host inventory from AWS EC2.
+Click the *Sync inventory source* button in the top right to retrieve the host inventory from AWS EC2.
 
 ---
 

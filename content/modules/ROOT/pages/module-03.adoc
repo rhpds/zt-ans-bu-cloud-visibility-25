@@ -31,7 +31,7 @@ You will start by creating a job template that runs a playbook to generate the c
 
 . **Navigate to the Templates page.**
 +
-From the left navigation menu, select *Templates*.
+From the left navigation menu, select *Automation Execution* → *Templates*.
 +
 image::https://github.com/HichamMourad/awsinfravis25/blob/master/images/menu_templates.png?raw=true[Templates link in menu, opts="border"]
 
@@ -61,7 +61,7 @@ IMPORTANT: This job template requires two credentials. One is for retrieving inf
 
 . **Save the job template.**
 +
-Click the blue **Save** button.
+Click the blue **Create job template** button.
 
 ---
 
@@ -81,7 +81,7 @@ image::https://github.com/IPvSean/pictures_for_github/blob/master/survey_tab.png
 
 . **Create a new survey question.**
 +
-Click the blue **Add** button.
+Click the blue **+ Create Survey question** button.
 
 . **Configure the survey question.**
 +
@@ -98,7 +98,7 @@ Fill out the form with the following values:
 
 . **Save the survey question.**
 +
-Click the blue **Save** button.
+Click the blue **Create survey question** button.
 
 . **Enable the survey.**
 +
