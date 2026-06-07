@@ -177,7 +177,7 @@ image::https://github.com/HichamMourad/awsinfravis25/blob/master/images/ping_out
 
 == Next Steps
 
-You have successfully completed this lab. Press the `Check` button in the lab environment to proceed to the next challenge.
+You have successfully completed this lab. Press the `Next` button in the lab environment to proceed to the next challenge.
 
 == Troubleshooting
 

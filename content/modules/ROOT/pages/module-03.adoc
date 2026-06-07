@@ -151,11 +151,9 @@ A cloud operator can use this report to gain quick awareness of their cloud foot
 
 This automated report provides a powerful tool for resource management and cost optimization.
 
----
-
 == Finished!
 
-You have successfully completed this lab. Press the `Check` button in your lab environment to validate your work.
+You have successfully completed this lab.
 
 == Troubleshooting
 
