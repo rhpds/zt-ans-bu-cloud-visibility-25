@@ -108,7 +108,7 @@ After selecting `Amazon EC2` as the source, more options will appear. Find the *
 +
 TIP: You may need to click the search icon (magnifying glass) to browse and select the `AWS_Credential`.
 
-. **Configure the `Source Varialbles` section.**
+. **Configure the `Source Variables` section.**
 +
 Enter the following text to the *Source Variables* text section.
 +
@@ -126,7 +126,7 @@ Click the blue *Create source* button.
 
 . **Launch the inventory sync.**
 +
-Click the *Sync inventory source* button in the top right to retrieve the host inventory from AWS EC2.
+Click the *Launc inventory update* button in the top right to retrieve the host inventory from AWS EC2.
 
 ---
 
@@ -136,7 +136,7 @@ For this final task, we will examine the hosts that were added to the inventory 
 
 . **Return to the Hosts view.**
 +
-Click the *Hosts* tab. You should now see two hosts listed, dynamically pulled from AWS.
+First, click the *AWS Inventory* breadcrumb, in order to see the Hosts tab. Then, click the *Hosts* tab. You should now see two hosts listed, dynamically pulled from AWS.
 +
 image::https://github.com/IPvSean/pictures_for_github/blob/master/aws_inventory_menu.png?raw=true[AWS Inventory Menu, 400, opts="border"]
 

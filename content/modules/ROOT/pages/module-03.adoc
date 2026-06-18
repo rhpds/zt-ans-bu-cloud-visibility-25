@@ -129,7 +129,7 @@ When prompted by the survey, accept the default host (`ansible-1`) and launch th
 This playbook uses two roles:
 +
 . The first role, `retrieve_info`, gathers structured data for VPCs, EC2 instances, and IGWs. link:https://github.com/ansible-cloud/aws_demos/tree/master/roles/retrieve_info[View source code].
-. The second role, `build_report`, installs a web server, copies assets (CSS, images), and uses the structured data to generate an HTML report. link:https://github.com/ansible-cloud/aws_demos/tree/master/roles/build_report[View source code].
+. The second role, `build_report`, installs a web server, copies assets (CSS, images), and uses the structured data to generate an HTML report. link:https://github.com/ansible-cloud/aws_demos/tree/master/roles/build_report_linux[View source code].
 
 . **View the generated report.**
 +
